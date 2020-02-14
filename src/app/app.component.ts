@@ -201,11 +201,12 @@ export class AppComponent {
     let tail = Object.assign({}, this.snake.parts[this.snake.parts.length - 1]);
 
     this.snake.parts.push(tail);
+    this.snake.parts.push(tail);
     this.resetFruit();
+    this.addObstacles();
 
-    if (this.score % 5 === 0) {
-      this.interval -= 15;
-    }
+      this.interval -= 5;
+    
   }
 
   gameOver(): void {
