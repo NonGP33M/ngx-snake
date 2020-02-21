@@ -205,8 +205,10 @@ export class AppComponent {
     this.resetFruit();
     this.addObstacles();
 
-      this.interval -= 5;
-    
+    if(this.interval > 50 && this.score % 5 == 0)
+    {
+      this.interval -= 10;
+    }
   }
 
   gameOver(): void {

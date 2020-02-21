@@ -9,15 +9,15 @@ export const CONTROLS = {
 
 export const COLORS = {
   GAME_OVER: '#D24D57',
-  FRUIT: '#EC644B',
-  HEAD: '#FFB6C1',
-  BODY: '#FFDEAD',
-  BOARD: '#86B5BD',
+  FRUIT: '#B6F0E8',
+  HEAD: '#6D5C99',
+  BODY: '#D9CAFF',
+  BOARD: '#C8FFF7',
   OBSTACLE: '#383522'
 };
 
 export const GAME_MODES = {
-  classic: 'Classic',
-  no_walls: 'No Walls',
-  obstacles: 'Obstacles'
+  classic: 'Classic But Never Reach 30 scores',
+  no_walls: 'No Walls But You Are Walls',
+  obstacles: 'Increasing Obstacles'
 };
